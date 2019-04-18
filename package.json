@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "author": "Takagi Kensuke <janus.wel.3@gmail.com>",
   "license": "MIT",
+  "bin": {
+    "renderplantuml": "./src/index.js"
+  },
   "scripts": {
     "start": "docker-compose up -d",
     "prebuild": "npm run start",
