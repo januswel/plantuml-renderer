@@ -1,0 +1,12 @@
+{
+  "name": "plantuml-renderer",
+  "version": "1.0.0",
+  "author": "Takagi Kensuke <janus.wel.3@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "docker-compose up -d",
+    "prebuild": "npm run start",
+    "build": "./src/index.js"
+  },
+  "dependencies": {}
+}
