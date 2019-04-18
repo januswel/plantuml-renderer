@@ -9,7 +9,8 @@ const PlantUML = require('./plantuml')
 
 const targetIsSpecified = () => 2 < process.argv.length
 if (!targetIsSpecified) {
-  console.error('specify file name')
+  console.error('specify a path to PlantUML file')
+  return
 }
 
 const src = process.argv[2]
